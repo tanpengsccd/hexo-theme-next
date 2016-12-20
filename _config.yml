@@ -34,12 +34,11 @@ canonical: true
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
-  #categories: /categories
+  #home: /
+  categories: categories
   #about: /about
-  archives: /archives
-  tags: /tags
-  #sitemap: /sitemap.xml
+  archives: archives
+  tags: tags
   #commonweal: /404.html
 
 
@@ -68,9 +67,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -130,8 +129,12 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  GitHub: https://github.com/tanpengsccd
+  Git@OSC:  http://git.oschina.net/tanpengsccd
+  简书: http://www.jianshu.com/users/ca0f08449f2c
+  CSDN: http://blog.csdn.net/tanpengsccd
 
 
 # Social Links Icons
@@ -151,7 +154,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: http://oet7vjedr.bkt.clouddn.com/2016121815128head.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -171,8 +174,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
